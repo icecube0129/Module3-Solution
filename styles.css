@@ -1,0 +1,15 @@
+body{
+    font-size: 20px;
+    color: cadetblue;
+    background-color: chocolate;
+}
+
+#header-nav{
+    border-radius:0;
+    border:0;
+}
+#logo-img{
+    background:url(9919.png);
+    width:211px;
+    height:211px;
+}
