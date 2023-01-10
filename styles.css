@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-size: 20px;
     color: #000000;
@@ -96,3 +97,103 @@ body{
     } 
 
 }
+=======
+body{
+    font-size: 20px;
+    color: #000000;
+    background-color:white;
+}
+/***HEADER***/
+.navbar{
+    background-color:gray;
+    border:4px solid black;
+    margin-bottom: -10px;
+}
+.navbar a:link,.navbar a:hover{
+    text-decoration: none;
+}
+.navbar-brand{
+ padding-bottom:5px;
+}
+.navbar-brand h1{
+    color:black;
+}
+
+#nav-list{
+    margin-top:10px;
+}
+#nav-list a{
+    color:brown;
+    text-decoration: none;
+}
+#nav-list li{
+    text-align:center;
+}
+.box-title{
+    font-size: 20px;
+}
+/***END OF HEADER***/
+
+.Menu-title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 15px;
+}
+.jumbotron h4{
+    background-color: gray;
+    text-align: center;
+}
+.box-title p{
+    font-size: 15px;
+    text-align:start;
+    
+}
+@media(min-width:992px){
+    .jumbotron{
+        margin:0 -30px;
+ 
+    }
+    .jumbotron p{
+        padding:15px;
+    }  
+}
+@media(min-width:768px) and (max-width:992px){
+    .jumbotron{
+        margin:0 -30px;
+ 
+    }
+    .jumbotron p{
+        padding:15px;
+    }  
+}
+@media(min-width:576px) and (max-width:768px){
+    .jumbotron{
+        margin:10px 80px;
+ 
+    }
+    .jumbotron p{
+        padding:15px 30px;
+    }  
+}
+@media(max-width:576px){
+    .bi{
+        background-color: white;
+        border-left: 4px solid black;
+        border-bottom:4px solid black;
+        border-right:4px solid black;
+    }
+    .Menu-title{
+       margin-top:-15px;
+    }
+    .jumbotron{
+        margin:10px 40px;
+    }
+    .jumbotron h4{
+        padding-top:10px;
+    }
+    .jumbotron p{
+        padding:5px 30px;
+    } 
+
+}
+>>>>>>> ac7be2acacbf78c570ab9ffe6735e77664bed9d6
